@@ -3,6 +3,15 @@
 Wassapon Watanakeesuntorn
 5610503981 (CPE)
 
+Contributer List (Homework V & VI)
+
+5510500140	Sippakorn Widsankun
+5610500079	Aikdanai Sidhikosol
+5610500311	Kanitkorn Sujautra 
+5610501008	Padungkiet Tamasee 
+5610503841	Jitlada Supreeyaporn 
+5610503981	Wassapon Watanakeesuntorn
+
 ============================================================
 
 Homework III
@@ -65,3 +74,5 @@ sys     0m0.496s
 real    12m11.228s
 user    0m14.968s
 sys     0m0.816s
+
+===========================================================

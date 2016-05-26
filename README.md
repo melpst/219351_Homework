@@ -1,78 +1,102 @@
-01204498 - Web Application Development
 
-Wassapon Watanakeesuntorn
-5610503981 (CPE)
+# 01204498 - Web Application Development Homework
 
-Contributer List (Homework V & VI)
 
-5510500140	Sippakorn Widsankun
-5610500079	Aikdanai Sidhikosol
-5610500311	Kanitkorn Sujautra 
-5610501008	Padungkiet Tamasee 
-5610503841	Jitlada Supreeyaporn 
-5610503981	Wassapon Watanakeesuntorn
 
-============================================================
+## Homework III - Threads
 
-Homework III
+#### -np 2
+MPI_Wtime is 7.113915
+```
+mpiexec -np 2 ./bubble_sort
+```
+**Result**: 14.18s user 0.05s system 198% cpu 7.177 total
 
--np 2
+#### -np 4
+MPI_Wtime is 1.861241
+```
+mpiexec -np 4 ./bubble_sort
+```
+**Result**: 7.37s user 0.07s system 383% cpu 1.938 total
 
-Elapsed time MPI_Wtime is 7.113915
-mpiexec -np 2 ./bubble_sort  14.18s user 0.05s system 198% cpu 7.177 total
+#### -np 8
+MPI_Wtime is 0.871781
+```
+mpiexec -np 8 ./bubble_sort
+```
+**Result**: 6.64s user 0.12s system 711% cpu 0.950 total
 
--np 4
 
-Elapsed time MPI_Wtime is 1.861241
-mpiexec -np 4 ./bubble_sort  7.37s user 0.07s system 383% cpu 1.938 total
+## Homework V - Hadoop
 
--np 8
 
-Elapsed time MPI_Wtime is 0.871781
-mpiexec -np 8 ./bubble_sort  6.64s user 0.12s system 711% cpu 0.950 total
+##### 5) Sequential: 1-hop neighbors
 
-============================================================
+Type | Elapsed time
+------------ | -------------
+real|   0m 46.295s
+user|   0m 12.144s
+sys|    0m 2.972s
 
-Homework V
+##### 6) Hadoop: 1-hop neighbors
 
-5) Sequential
+Type | Elapsed time
+------------ | -------------
+real|   1m 53.983s
+user|   0m 5.144s
+sys|    0m 0.224s
 
-real    0m46.295s
-user    0m12.144s
-sys     0m2.972s
+##### 7) Sequential: 2-hops neighbors
 
-6) Hadoop
+Type | Elapsed time
+------------ | -------------
+real|   10m 44.766s
+user|   1m 36.584s
+sys|    1m 18.056s
 
-real	1m53.983s
-user	0m5.144s
-sys 	0m0.224s
+##### 8) Hadoop: 2-hops neighbors
 
-7) Sequential
 
-real	10m44.766s
-user	1m36.584s
-sys		1m18.056s
+Type | Elapsed time
+------------ | -------------
+real|   6m 3.408s
+user|   0m 6.920s
+sys|    0m 0.436s
 
-8) Hadoop
 
-real	6m3.408s
-user	0m6.920s
-sys		0m0.436s
+## Homework VI - PIG
 
-============================================================
+##### 4) 1-hop neighbor
 
-Homework VI
+Type | Elapsed time
+------------ | -------------
+real|   1m 20.245s
+user|   0m 8.816s
+sys|    0m 0.496s
 
-4)
+##### 5) 2-hops neighbors
 
-real    1m20.245s
-user    0m8.816s
-sys     0m0.496s
+Type | Elapsed time
+------------ | -------------
+real|   12m 11.228s
+user|   0m 14.968s
+sys|    0m 0.816s
 
-5)
 
-real    12m11.228s
-user    0m14.968s
-sys     0m0.816s
+## Additional info
 
-===========================================================
+#### Contributors (Homework V & VI)
+* 5510500140    Sippakorn Widsankun
+* 5610500079    Aikdanai Sidhikosol
+* 5610500311    Kanitkorn Sujautra 
+* 5610501008    Padungkiet Tamasee 
+* 5610503841    Jitlada Supreeyaporn 
+* 5610503981    Wassapon Watanakeesuntorn
+
+#### Websites
+* [Web application development](https://www.cpe.ku.ac.th/~paruj/219351/)
+* [Librario (Final project)](http://54.169.138.7/)
+
+__________
+
+Aikdanai Sidhikosol
